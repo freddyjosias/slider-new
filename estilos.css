@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-relleno {
+    background-color: blue;
+    width: 100%;
+    height: 20rem;
+}
+
+.contenedor-slider {
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #f2f2f2;
+    margin: auto;
+    height: 17rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenido {
+    background-color: lawngreen;
+    height: 12rem;
+    width: 19%;
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.next, .prev {
+    position: absolute;
+    font-size: 35px;
+    color: rgb(255, 36, 21);
+    top: 7.5rem;
+    cursor: pointer;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
